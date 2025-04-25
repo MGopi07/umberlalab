@@ -1469,10 +1469,10 @@ textarea.is-invalid {
   visibility: hidden;
 }
 .vs-menu-wrapper .mobile-logo {
-  padding-bottom: 30px;
-  padding-top: 40px;
+  /* padding-bottom: 30px; */
+  /* padding-top: 40px; */
   display: block;
-  text-align: center;
+  /* text-align: center; */
   background-color: var(--theme-color);
 }
 .vs-menu-wrapper .mobile-logo svg {
@@ -1483,7 +1483,8 @@ textarea.is-invalid {
   font-size: 22px;
   position: absolute;
   right: 10px;
-  top: 10px;
+  /* top: 10px; */
+  top: 25px;
   padding: 0;
   line-height: 1;
   width: 33px;
@@ -12619,3 +12620,14 @@ body.header-has-fixed {
 }
 
 /* Optional: Add some space between carousel controls */
+
+/*-----------*/
+@media (max-width: 570px) {
+  .mobile_view_about{
+    flex-direction: column-reverse;
+  }
+}
+.about_img{
+  width: 80%;
+  height: 100%;
+}
